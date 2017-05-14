@@ -1,0 +1,174 @@
+@charset "UTF-8";
+body ul{
+    background-color: #f3f3f3;
+}
+h1{
+    font-family: "Times New Roman";
+    font-size: 175%
+}
+.singleHeading{
+    border-bottom: .1em ridge black;
+    margin-bottom: 1em;
+}
+#homepageTitle{
+    font-size:300%;
+    text-align: center;
+}
+.userID{
+    color:blue;
+    font-size:125%;
+    font-style: italic;
+}
+.actionBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #020202;
+}
+.actionBar2 {
+    list-style-type: none;
+    margin: auto;
+    clear: both;
+    padding: 0;
+    text-align: center;
+    width: 30%;
+    background-color: #020202;
+}
+.actionBar>li a {
+    display:block;
+    clear: both;
+    color: #ffffff;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+.actionBar2>li a {
+    display:block;
+    clear: both;
+    color: #ffffff;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+.navBar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #020202;
+}
+.navBar>li{
+    float:left;
+}
+#logIn, #logOut{
+    float: right;
+}
+.navBar>li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #be472d;
+    color: white;
+}
+
+
+/*BOX MODEL ELEMENT*/
+/*Start here*/
+.featuredAuctions{
+    margin: auto;
+    border: 0.3em double #ff6f30;
+    padding: 0.2em;
+    display: inline-block;
+    text-align: center;
+}
+.importantRequirements{
+    border: .2em solid red;
+    margin: 1em 0em 1em 0em;
+    padding: .5em;
+    display: inline-block ;
+}
+/*Ends here*/
+
+/*Different specificity*/
+/*Starts here*/
+section>h2{
+    border-bottom: .1em ridge black;
+    font-size: 150%;
+    font-family: "Times New Roman";
+}
+section{
+    font-family: Calibri;
+    font-weight: bold;
+}
+/*Ends here*/
+
+/*Float Starts here*/
+td>p>img{
+    float: right;
+    margin: 0px 10px 0px 10px;
+}
+.optional{
+    float:right;
+    margin: 0px 0px 0px 50px;
+}
+/*Float ends here*/
+
+form{
+    line-height: 125%;
+}
+
+span.siteName{
+    color: #f66f00;
+    font-family: "AR HERMANN";
+    font-size: 125%;
+}
+/*Table styling*/
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.money{
+    color: red;
+}
+
+th{
+    font-size: 150%;
+    color: green;
+}
+/*Float ends here*/
+
+.featuredAuctions>strong{
+    color: red;
+    font-size: 150%;
+}
+
+strong{
+    font-size:130%;
+    font-weight: bolder;
+}
+
+.itemTitle{
+    color:#f66f00;
+    font-size: 250%;
+}
+span.detailDescp{
+    margin: auto;
+    border: 0.2em solid #51f5ff;
+    padding: 1em;
+    display: inline-block;
+    text-align: center;
+}
+
+.listItem{
+    display: inline;
+}
+
+.cancel{
+    text-align: center;
+}

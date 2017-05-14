@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="aea9f2d1-a28e-4e1c-bd2a-edf77976eb32" name="CS 105" url="http://spring-2016.cs.utexas.edu/cs105/thienvo9">
+        <fileTransfer host="jaffe.cs.utexas.edu" port="22" rootFolder="/u/z/users/cs105/thienvo9" accessType="SFTP" password="dffbdfdedfc2dfc3dfcfdfc4df9adf99df9bdf9d" username="thienvo9">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
