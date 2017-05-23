@@ -12,8 +12,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 }
 
 .img-profile {
-	width: 250px;
-	height: 250px;
+	width: 250px !important;
+	height: 250px !important;
 }
 
 html, body{
@@ -726,6 +726,11 @@ p.b_label {
     -o-background-size: cover;
     -ms-background-size: cover;
     min-height:450px;
+		/*max-width: 50%;*/
+}
+#map {
+	width: 100%;
+	height: 450px;
 }
 .agile_count_grid {
     text-align: center;
@@ -1087,6 +1092,9 @@ p.counter {
 	#counter {
 		min-height: 400px;
 	}
+	#map {
+		height: 400px;
+	}
 	.count {
 		padding-top: 9em;
 	}
@@ -1186,11 +1194,12 @@ p.counter {
 	.agile_count_grid {
 		text-align: center;
 		float: left;
-		width: 25%;
+		/*width: 25%;*/
 	}
 	#counter {
 		min-height: 325px;
 	}
+
 	p.counter {
        font-size: 1.6em;
 	}
@@ -1429,10 +1438,13 @@ p.counter {
 		font-size: 1.8em;
 		padding: 3.7em 0 0.5em;
 	}
+	#counter {
+		min-height: 250px;
+	}
 	.agile_count_grid {
 		text-align: center;
 		float: left;
-		width: 50%;
+		/*width: 50%;*/
 		margin: 0 0 1em 0;
 	}
 	.count {
@@ -1455,7 +1467,7 @@ p.counter {
 	.agile_count_grid {
 		text-align: center;
 		float: left;
-		width: 50%;
+		/*width: 50%;*/
 	}
 	.callbacks_tabs {
 		bottom: -128%;

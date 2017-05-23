@@ -35,11 +35,11 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 </head>
 
 <body>
-<a href="Classy/">Classy</a> <br />
+<!-- <a href="Classy/">Classy</a> <br />
 <a href="MyCV/">MyCV</a> <br />
 <a href="MyProfile/">MyProfile</a><br />
 <a href="Portfolio/">portfolio</a><br />
-<a href="Elegant/">Elegant</a><br />
+<a href="Elegant/">Elegant</a><br /> -->
 
 <div class="main" id="home">
 <!-- banner -->
@@ -164,27 +164,29 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 						year in a small town called Levittown in Pennsylvania. With 98% of the
 						population comprised of non-Asian, the culture shock in addition to the
 						language barrier all pointed me to failure. At school, I was placed in
-						Pre-Algebra at 7th grade (at this time, I have already studied Pre-Calculus
-						in Vietnam) because the school administrators believe that English would
+						Pre-Algebra at 7th grade (at this time, I had already studied Pre-Calculus
+						in Vietnam) because the school administrators believed that the lack of English skills would
 						prevent me to do math. In 8th grade, my Algebra 1 teacher, Mrs. Diamond,
-						told me that I should be in at least Geometry class right now, if not
+						told me that I should be at least in Geometry class right now, if not
 						Algebra 2.
-						<blockquote class="blockquote">I realized that I cannot count on the system to help
+						<blockquote class="blockquote">I realized that I couldn't count on the system to help
 						me achieve the <b>American Dream.</b> </blockquote>
 					<p>
 						I was stuck in the English as Second Langauge (ESL) system. I couldn't get out even if I wanted to.
-						My ESL teacher told me that I cannot graduate the system until I'm in 10th
+						My ESL teacher told me that I can't graduate the ESL program until 10th
 						grade or so. This system prevented me from taking Honors classes that
-						would help me build a good GPA for college. When my parents told me that we were moving to Texas during the summer
-						of 2011, I knew that this was my only chance. So, I spent the last 3 or 4
-						months in Pennsylvania honing my English so that during my next placement
-						exam for the same system in Texas. I promised that I would get myself out of this damn
+						would allow me to build good GPA for college. When my parents told me that we were moving to Texas during the summer
+						of 2011, I knew that this was my <b>only chance.</b> So, I spent the last 3 or 4
+						months in Pennsylvania honing my English skills so that I can get out of ESL
+						during my next placement exam in Texas. I promised myself that I would get out of this damn
 						system, and I did. Then, I was able to take on-level classes just like
-						everyone else who was born here. I moved quickly up the ladder though.
+						everyone else who was born here. This was in August 2011 - just over a year
+						in the U.S. I moved quickly up the ladder. <br />
 						I enrolled in my first Honors English class in 10th grade, then AP
-						English Composition and AP English Literature come afterward. I expanded
+						English Composition and AP English Literature in 11th and 12th respectivey. I expanded
 						my friend circle to meet with other people from different cultures:
-						Mexico, India, Nigeria, England, and so many more!
+						Mexico, India, Nigeria, England, and so many more! I made highschool the
+						stepping stone to my college education.
 					</p>
 					<blockquote class="blockquote">When I get accepted to UT Austin with a scholarship, I knew that
 					I am one step closer to the <b> American Dream </b>. </blockquote>
@@ -379,50 +381,47 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 </div>
  <!-- //projects -->
 <!--counter-->
-<div id="counter" class="counter">
-	<div class="container">
+<div id="counter" class="counter col-md-6">
+	<!-- <div class="container"> -->
 			<!--count-down -->
-		<div class="count">
-			<div class="col-md-3 agile_count_grid">
-				<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-
-				<h5>CLIENTS</h5>
-
-					<p class="counter">468</p>
-
-			</div>
-			<div class="col-md-3 agile_count_grid">
+		<!-- <div class="count"> -->
+			<div class="col-xs-6 agile_count_grid count">
 				<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
-
 				<h5>PROJECTS</h5>
-
-					<p class="counter">168</p>
-
+				<p class="counter">168</p>
 			</div>
-			<div class="col-md-3 agile_count_grid c3">
-				<span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>
-
-				<h5>EXPERIENCE</h5>
-
-					<p class="counter">12</p>
-
-			</div>
-			<div class="col-md-3 agile_count_grid c4">
-
-					<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
-
+			<!-- <div class="clearfix"> </div> -->
+			<div class="col-xs-6 agile_count_grid count">
+				<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
 				<h5>LINES OF CODE</h5>
-
-					<p class="counter">5008</p>
-
-
-
+				<p class="counter">5008</p>
 			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
+		<!-- </div> -->
+	<!-- </div> -->
+</div>
+<div class="col-md-6" style="padding:0;">
+	<div id="map"></div>
+
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBb_EB0SXHwdnDyFU-9d87IevWaRs1pbas"></script>
+	<script type="text/javascript">
+	google.maps.event.addDomListener(window, 'load', init);
+	function init() {
+		var mapOptions = {
+			zoom: 11,
+			center: new google.maps.LatLng(30.251947, -97.736243),
+			styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
+		};
+		var mapElement = document.getElementById('map');
+		var map = new google.maps.Map(mapElement, mapOptions);
+		var marker = new google.maps.Marker({
+			position: new google.maps.LatLng(30.251947, -97.736243),
+			map: map,
+		});
+	}
+	</script>
 </div>
 <!--counter-->
+<div class="clearfix"></div>
 <!-- mail -->
 	<div class="mail" id="mail">
 		<div class="container">
@@ -646,7 +645,25 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 			});
 	</script>
 <!-- //here ends scrolling icon -->
-<!-- change min-height for "projects" responsively -->
+<!-- Map-JavaScript -->
+<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+<script type="text/javascript">
+google.maps.event.addDomListener(window, 'load', init);
+function init() {
+	var mapOptions = {
+		zoom: 11,
+		center: new google.maps.LatLng(30.251947, -97.736243),
+		styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
+	};
+	var mapElement = document.getElementById('map');
+	var map = new google.maps.Map(mapElement, mapOptions);
+	var marker = new google.maps.Marker({
+		position: new google.maps.LatLng(30.251947, -97.736243),
+		map: map,
+	});
+}
+</script> -->
+<!-- //Map-JavaScript -->
 <script src="js/projects.js">
 </script>
 </body>

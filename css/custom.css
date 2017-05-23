@@ -1,3 +1,73 @@
+/*-- contact --*/
+.contact-agileits-w3layouts p {
+    color: #eee;
+    font-size: 14px;
+    margin-top: 14px;
+}
+.contact-agileits-w3layouts span {
+    color:#045858;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    display: inline-block;
+    width: 76px;
+}
+.contact-agileits-w3layouts p a {
+    text-decoration: none;
+    color: #eee;
+}
+.contact-agileits-w3layouts p a:hover {
+    text-decoration: none;
+    color: #2b2b2b;
+}
+.contact-agileits-w3layouts {
+        padding: 35px;
+    background: #00bdbd;
+}
+.contact-map-right {
+    padding: 0;
+}
+.contact-agileits-w3layouts input[type="text"],.contact-agileits-w3layouts input[type="email"],.contact-agileits-w3layouts textarea{
+	outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 7px 10px;
+    background: transparent;
+    color: #fff;
+    font-size: 14px;
+    width: 95%;
+}
+.contact-agileits-w3layouts input[type="email"]{
+	margin:1em 0;
+}
+.contact-agileits-w3layouts textarea {
+    min-height: 100px;
+    resize: none;
+    margin-top: 1em;
+}
+.contact-agileits-w3layouts input[type="submit"] {
+    outline: none;
+    border: none;
+    padding: 7px 40px;
+    background: #0b9494;
+    color: #fff;
+    font-size: 14px;
+	margin: 1em 0;
+	transition:.5s ease-in-out;
+	-webkit-transition:.5s ease-in-out;
+	-moz-transition:.5s ease-in-out;
+	-o-transition:.5s ease-in-out;
+	-ms-transition:.5s ease-in-out;
+}
+.contact-agileits-w3layouts input[type="submit"]:hover{
+	background:#2b2b2b;
+	transition:.5s ease-in-out;
+	-webkit-transition:.5s ease-in-out;
+	-moz-transition:.5s ease-in-out;
+	-o-transition:.5s ease-in-out;
+	-ms-transition:.5s ease-in-out;
+}
+
 /*--- Social Icons (Facebook, Linkedin, Twitter, GooglePlus) ---*/
 
 .social-icons {
